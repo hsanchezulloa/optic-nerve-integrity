@@ -10,12 +10,6 @@ The core of this work is a 2D U-Net convolutional neural network (CNN). The mode
 
 After segmentation, the optic nerve profiles were extracted from the T1/T2 ratio, which has demonstrated clinical value when non-conventional MRI sequences are unavailable. These profiles were then used to analyze the integrity of the optic nerve in different patient groups, including healthy controls (HC), MS patients without optic neuritis (ON), and MS patients with ON.
 
-## Key Features
-* Automated Segmentation: A U-Net CNN is implemented for the automatic, accurate segmentation of the optic nerve from brain MRI data.
-* Conventional MRI Utilization: The pipeline is based on standard 3D T1- and T2-weighted MRI, making it highly accessible and suitable for analyzing retrospective cohorts without requiring dedicated sequences.
-* Quantitative Analysis: The segmented masks are used to extract longitudinal T1/T2 ratio profiles of the optic nerve. This ratio is used as a surrogate for tissue integrity.
-* Clinical Relevance: The approach offers a reproducible tool for assessing optic nerve integrity and monitoring disease progression , with results demonstrating a significant difference in T1/T2 values between affected eyes with lesions and HC, MS without ON, and fellow eyes.
-
 ## Files and Folders
 **`functions.py/`**: A helper file containing reusable functions for the pipeline.  
 **`model.pth/`**: The trained model weights file.  
