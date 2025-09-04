@@ -36,4 +36,4 @@ The model was trained on a PC with 12 processors (Intel i7), 128 GB RAM, and a G
 ### Usage
 This repository contains only the segmentation algorithm and is designed to be integrated into a larger, FSL-based image analysis pipeline.
 
-The **`reconstruction_patches/`** directory houses the core script for performing segmentation on preprocessed images. The model expects an input of patches that have already been extracted from a previously defined region of interest (ROI). After the algorithm runs, the segmented masks can then be used for subsequent analysis, such as the extraction of optic nerve profiles.
+The **`segmentation_algorithm/`** directory houses the core script for performing segmentation on preprocessed images. The model expects an input of patches that have already been extracted from a previously defined region of interest (ROI). After the algorithm runs, the segmented masks can then be used for subsequent analysis, such as the extraction of optic nerve profiles.
