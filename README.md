@@ -11,12 +11,11 @@ The core of this work is a 2D U-Net convolutional neural network (CNN). The mode
 After segmentation, the optic nerve profiles were extracted from the T1/T2 ratio, which has demonstrated clinical value when non-conventional MRI sequences are unavailable. These profiles were then used to analyze the integrity of the optic nerve in different patient groups, including healthy controls (HC), MS patients without optic neuritis (ON), and MS patients with ON.
 
 ## Files and Folders
-**`patch_extraction/`**: Script that extracts fixed-size patches from the region of interest (ROI) around the optic nerve.  
-**`segmentation_algorithm/`**: The core Python script containing the 2D U-Net architecture, training loop, and evaluation functions.  
-**`reconstruction_patches/`**: Script for reconstructing the full optic nerve from the segmented patches.  
-**`functions.py/`**: A helper file containing reusable functions for the pipeline.  
-**`model.pth/`**: The trained model weights file.  
-**`README.md/`**:  This file, providing an overview of the repository.  
+**`01_data_preprocessing.ipynb`**: Script that extracts fixed-size patches from the region of interest (ROI) around the optic nerve.  
+**`02_model_inference.ipynb`**: The core Python script containing the 2D U-Net architecture, training loop, and evaluation functions.  
+**`03_reconstruction_analysis.ipynb`**: Script for reconstructing the full optic nerve from the segmented patches.  
+**`functions.py`**: A helper file containing reusable functions for the pipeline.  
+**`model.pth`**: The trained model weights file.  
 
 ## Getting Started
 ### Prerequisites
