@@ -17,12 +17,12 @@ After segmentation, the optic nerve profiles were extracted from the T1/T2 ratio
 * Clinical Relevance: The approach offers a reproducible tool for assessing optic nerve integrity and monitoring disease progression , with results demonstrating a significant difference in T1/T2 values between affected eyes with lesions and HC, MS without ON, and fellow eyes.
 
 ## Files and Folders
-**`functions.py/`**: A helper file containing reusable functions for the pipeline.
-**`model.pth/`**: The trained model weights file.
-**`patch_extraction/`**: Script that contains scripts for extracting fixed-size patches from the region of interest (ROI) around the optic nerve.
-**`segmentation_algorithm/`**: The core Python script containing the 2D U-Net architecture, training loop, and evaluation functions.
-**`reconstruction_patches/`**: Scripts for reconstructing the full optic nerve from the segmented patches.
-**`README.md/`**:  This file, providing an overview of the repository.
+**`functions.py/`**: A helper file containing reusable functions for the pipeline.  
+**`model.pth/`**: The trained model weights file.  
+**`patch_extraction/`**: Script that contains scripts for extracting fixed-size patches from the region of interest (ROI) around the optic nerve.  
+**`segmentation_algorithm/`**: The core Python script containing the 2D U-Net architecture, training loop, and evaluation functions.  
+**`reconstruction_patches/`**: Scripts for reconstructing the full optic nerve from the segmented patches.  
+**`README.md/`**:  This file, providing an overview of the repository.  
 
 ## Getting Started
 ### Prerequisites
